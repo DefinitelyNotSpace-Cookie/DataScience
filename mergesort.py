@@ -51,7 +51,7 @@ my_list = [54, 26, 93, 17, 77, 31, 44, 55, 20]
 x = range(len(my_list))
 plt.plot(x, my_list)
 plt.show()
-mergeSort(my_list)
+my_list = mergeSort(my_list)
 x = range(len(my_list))
 plt.plot(x, my_list)
 plt.show()
